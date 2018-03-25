@@ -19,7 +19,7 @@ Config parameters :
 	- user : (string - optional) - (default: 'user') - Set the user credential.
 	- pass : (string - optional) - (default: 'pass') - Set the password credential.
 	- host : (string - optional) - (default: '127.0.0.1') - The host you want to connect with.
-	- port : (integer - optional) - (default: 9998) - Set the port on which perform the RPC command.
+	- port : (integer - optional) - (default: 6665) - Set the port on which perform the RPC command.
 
 Promise vs callback based
 
@@ -32,10 +32,10 @@ Config:
 ```javascript
 var config = {
     protocol: 'http',
-    user: 'dash',
+    user: 'square',
     pass: 'local321',
     host: '127.0.0.1',
-    port: 19998
+    port: 16665
 };
 ```
 
