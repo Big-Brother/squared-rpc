@@ -62,7 +62,7 @@ rpc.getRawMemPool()
 Callback based (legacy):
 ```javascript
 var run = function() {
-  var bitcore = require('bitcore');
+  var squarecore = require('squarecore');
   var RpcClient = require('squared-rpc');
   var rpc = new RpcClient(config);
 
@@ -90,7 +90,7 @@ var run = function() {
         }
 
         rawtxs.map(function (rawtx) {
-          var tx = new bitcore.Transaction(rawtx.result);
+          var tx = new squarecore.Transaction(rawtx.result);
           console.log('\n\n\n' + tx.id + ':', tx.toObject());
         });
 
@@ -125,6 +125,6 @@ client.help('getinfo',cb); //Get help of specific method
 ```
 ## License
 
-**Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).**
+**Code released under [the MIT license](https://github.com/bitpay/squarecore/blob/master/LICENSE).**
 
 Copyright 2013-2014 BitPay, Inc.
