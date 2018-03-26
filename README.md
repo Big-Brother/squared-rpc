@@ -62,7 +62,7 @@ rpc.getRawMemPool()
 Callback based (legacy):
 ```javascript
 var run = function() {
-  var squarecore = require('squarecore');
+  var squarecore = require('@big-brother/squarecore');
   var RpcClient = require('squared-rpc');
   var rpc = new RpcClient(config);
 
